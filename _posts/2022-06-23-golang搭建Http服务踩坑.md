@@ -9,7 +9,7 @@ catalog: true 						# 是否归档
 tags:								#标签
     - 学习
 ---
-##golang 搭建Http服务相关
+## golang 搭建Http服务相关
 今天毕设设备认证服务启动后，设备端一直没有相应打印，然后也访问不到服务，很久找不到原因，解决后记录一下
 ```
 http.HandleFunc("mqtt/auth", authFunc)
